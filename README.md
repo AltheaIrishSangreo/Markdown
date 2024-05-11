@@ -87,9 +87,11 @@ This report details the findings of a simulated ethical hacking engagement for Y
    - Regularly update the Yahoo Sports mobile app to address any security vulnerabilities.
 10. **Third-Party Integration Vulnerabilities:**
    - Conduct thorough security assessments of third-party libraries before integrating them into Yahoo News. Regularly update these libraries to address any identified vulnerabilities.
+   - Utilize secure communication protocols like HTTPS for all data transmissions within the mobile app.
    - Consider alternative libraries with a strong security track record if critical vulnerabilities are found in currently used libraries.
    - Update all third-party plugins used on Yahoo Weather to the latest versions to address known vulnerabilities.
    - Monitor security advisories from third-party vendors and prioritize patching vulnerabilities within integrated components.
+
 
 ## Conclusion:
 The comprehensive assessment of Yahoo's systems and infrastructure has uncovered numerous critical vulnerabilities and security flaws across various domains, including web applications, session management, API security, and mobile app security. Addressing these vulnerabilities is imperative to safeguarding user data and ensuring the integrity of Yahoo's services. By diligently implementing the recommended remediation measures, Yahoo can bolster its security posture, mitigate the risk of cyber threats, and enhance user trust in its platforms.
