@@ -36,8 +36,8 @@ This report details the findings of a simulated ethical hacking engagement for Y
    - **Critical:** An insecure storage mechanism in the Yahoo Finance mobile app could allow attackers to access sensitive user data (e.g., financial information) stored on the device.
    - **High:** The Yahoo Sports mobile app transmits data without encryption, making it vulnerable to interception by attackers on unsecured Wi-Fi networks.
 10. **Third-Party Integration Vulnerabilities:**
-   - **Critical:** A critical vulnerability exists in a third-party library integrated into Yahoo News, potentially allowing attackers to gain access to the main application or manipulate news content.
-   - **High:** Outdated third-party plugins used on Yahoo Weather are known to have unpatched vulnerabilities, creating an additional attack vector for malicious actors.
+    - **Critical:** A critical vulnerability exists in a third-party library integrated into Yahoo News, potentially allowing attackers to gain access to the main application or manipulate news content.
+    - **High:** Outdated third-party plugins used on Yahoo Weather are known to have unpatched vulnerabilities, creating an additional attack vector for malicious actors.
 
 **Recommendations:**
 1. **Insecure Direct Object References (IDOR):**
@@ -86,11 +86,11 @@ This report details the findings of a simulated ethical hacking engagement for Y
    - Implement data encryption within the Yahoo Sports mobile app to protect sensitive user information while in transit over unsecured Wi-Fi networks.
    - Regularly update the Yahoo Sports mobile app to address any security vulnerabilities.
 10. **Third-Party Integration Vulnerabilities:**
-   - Conduct thorough security assessments of third-party libraries before integrating them into Yahoo News. Regularly update these libraries to address any identified vulnerabilities.
-   - Utilize secure communication protocols like HTTPS for all data transmissions within the mobile app.
-   - Consider alternative libraries with a strong security track record if critical vulnerabilities are found in currently used libraries.
-   - Update all third-party plugins used on Yahoo Weather to the latest versions to address known vulnerabilities.
-   - Monitor security advisories from third-party vendors and prioritize patching vulnerabilities within integrated components.
+    - Conduct thorough security assessments of third-party libraries before integrating them into Yahoo News. Regularly update these libraries to address any identified vulnerabilities.
+    - Utilize secure communication protocols like HTTPS for all data transmissions within the mobile app.
+    - Consider alternative libraries with a strong security track record if critical vulnerabilities are found in currently used libraries.
+    - Update all third-party plugins used on Yahoo Weather to the latest versions to address known vulnerabilities.
+    - Monitor security advisories from third-party vendors and prioritize patching vulnerabilities within integrated components.
 
 
 ## Conclusion:
