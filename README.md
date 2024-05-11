@@ -1,7 +1,7 @@
 # Ethical Hacking Technical Report
 
 **Client:** Yahoo  
-**Date:** 05/10/2024
+**Date:** 05/10/2024  
 **Prepared by:** Althea Irish Sangreo and John Llenard Nagal
 
 **Executive Summary:**
